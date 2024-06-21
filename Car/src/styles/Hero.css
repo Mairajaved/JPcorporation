@@ -1,0 +1,199 @@
+/* Hero.css */
+
+.hero {
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: url("../assets/hero.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.heading {
+  width: fit-content;
+}
+
+.heading h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #fff;
+  font-size: 4rem; /* Adjusted for responsiveness */
+}
+
+.heading h1 span {
+  color: #ff4605; /* Change to your desired color */
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.link-item {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.link-item:hover {
+  color: #ff4605;
+}
+
+.custom-dropdown .dropdown-toggle {
+  box-shadow: 1px 1px 0 0 rgba(196, 196, 196, 0.24);
+  padding: 0 27px;
+  background: #fff; /* White background */
+  color: #000; /* Black text */
+  border-radius: 10px;
+  position: relative;
+  width: 100%; /* Make the dropdown wider */
+  min-width: 150px; /* Ensure minimum width */
+}
+
+.custom-dropdown .dropdown-toggle:hover,
+.custom-dropdown .dropdown-toggle:focus,
+.custom-dropdown .dropdown-toggle:active {
+  border: 1px solid #ff4605;
+  color: #ff4605; /* Orange text */
+  outline: 2px solid #ff4605; /* Orange outline */
+  background: #fff;
+}
+
+.custom-dropdown .dropdown-menu {
+  border: 1px solid #e7edf3;
+  box-shadow: 1px 1px 0 0 rgba(196, 196, 196, 0.24);
+  background: #fff;
+  border-radius: 10px;
+}
+
+.custom-dropdown .dropdown-menu .dropdown-item {
+  color: #000;
+}
+
+.custom-dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #ff4605; /* Orange background on hover */
+  color: #fff; /* White text on hover */
+}
+
+.search-button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: #ff4605; /* Orange background on hover */
+}
+
+.search-button:hover {
+  background: #ff4605; /* Orange background on hover */
+  color: #fff; /* White text on hover */
+}
+
+.search-button i {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.input_box {
+  z-index: 2;
+  width: 100%;
+  background: #fff;
+  border-radius: 20px;
+  padding: 16px 22px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  position: relative;
+}
+
+.pngcar {
+  margin-top: 20px;
+  width: 10%;
+}
+
+.links-car a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 60px;
+}
+
+.Coupe {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .hero {
+    height: auto;
+    padding: 20px;
+  }
+
+  .heading h1 {
+    font-size: 2rem;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .input_box {
+    padding: 10px;
+    box-shadow: none;
+  }
+
+  .custom-dropdown .dropdown-toggle {
+    padding: 0 15px;
+  }
+
+  .custom-dropdown {
+    margin-bottom: 10px;
+  }
+
+  .search-button {
+    height: auto;
+    padding: 10px 20px;
+  }
+
+  .carsimg {
+    width: 20%;
+  }
+
+  .links-car Link {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .heading h1 {
+    font-size: 1.5rem;
+  }
+
+  .links-car {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .links-car a {
+    margin: 5px;
+  }
+
+  .input_box {
+    padding: 8px;
+  }
+
+  .custom-dropdown .dropdown-toggle {
+    padding: 0 10px;
+  }
+
+  .search-button {
+    padding: 5px 10px;
+  }
+
+  .carsimg {
+    width: 25%;
+  }
+}

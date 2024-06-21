@@ -1,0 +1,135 @@
+.contact_us {
+  padding: 40px 20px;
+  background: #ffffff;
+}
+
+.contact_info h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  text-align: left;
+  margin-bottom: 40px;
+  font-family: "Muli", Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color: #222732;
+}
+
+.contact_info h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #222732;
+  margin-bottom: 15px;
+}
+
+.contact_info p {
+  font-family: "Muli", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #585e68;
+  margin-bottom: 10px;
+}
+
+.social_links {
+  display: flex;
+  gap: 10px;
+}
+
+.social_links a {
+  padding: 20px;
+  font-size: 30px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social_links a:hover {
+  opacity: 0.7;
+}
+
+.social_links .fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.social_links .fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.social_links .fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.contact_form {
+  padding: 54px 56px;
+  background: #eff3fa;
+  border-radius: 20px;
+}
+
+.inline_inp {
+  min-height: 53px;
+  border-radius: 10px;
+  width: 50%;
+  padding: 10px 27px;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 0 0 rgba(196, 196, 196, 0.24);
+  border: 1px solid #e7edf3;
+}
+
+.inline_inp:hover {
+  border: 1px solid #ff4605 !important;
+}
+
+.msg_inp {
+  margin-top: 20px;
+  min-height: 53px;
+  border-radius: 10px;
+  width: 100%;
+  height: 20vh;
+  padding: 10px 27px;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 0 0 rgba(196, 196, 196, 0.24);
+  border: 1px solid #e7edf3;
+}
+.msg_inp:hover {
+  border: 1px solid #ff4605 !important;
+}
+.btn {
+  background: #ff4605;
+  color: #fff;
+  justify-content: center;
+  margin-top: 10px !important;
+}
+
+@media (max-width: 768px) {
+  .social_links {
+    justify-content: center;
+  }
+
+  .social_links a {
+    width: 60px;
+    font-size: 24px;
+  }
+  .contact_us {
+    padding: 20px 10px;
+  }
+
+  .contact_form {
+    padding: 20px;
+  }
+
+  .inline_inp,
+  .msg_inp {
+    width: 100%;
+  }
+}

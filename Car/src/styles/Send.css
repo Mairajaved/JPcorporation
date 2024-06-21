@@ -1,0 +1,58 @@
+/* Send.css */
+
+button {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f3470a;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+  position: relative;
+  padding: 0 15px;
+  transition: 200ms;
+}
+
+button .text {
+  color: white;
+  font-weight: bold;
+  transition: 200ms;
+}
+
+button .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  transition: 200ms;
+}
+
+button .icon img {
+  width: 24px;
+  height: 24px;
+  transition: 200ms;
+}
+
+button:hover {
+  background: #f3470a;
+}
+
+button:hover .text {
+  color: transparent;
+}
+
+button:hover .icon {
+  width: 150px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active .icon img {
+  transform: scale(0.8);
+}

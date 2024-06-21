@@ -1,0 +1,29 @@
+/* Nav.css */
+.navbtn {
+  background: #ff4605;
+  color: #fff;
+  justify-content: center;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it stays on top of other elements */
+  background-color: #fff; /* Optional: set a background color to avoid transparency */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for better visibility */
+}
+
+.navbar-toggler {
+  border: none;
+  background: transparent;
+}
+
+.navbar-toggler .fas {
+  color: #ff4605; /* Customize the color of the icon */
+  transition: transform 0.3s ease;
+}
+
+.navbar-toggler .fas:hover {
+  transform: rotate(90deg); /* Add a hover effect if desired */
+}
